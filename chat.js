@@ -135,7 +135,7 @@ function generate() {
     var area = document.getElementById("area");
     area.appendChild(mainDiv);
     paragraph.scrollIntoView(false);
-    document.getElementById("new").scrollIntoView(false);
+    // document.getElementById("new").scrollIntoView(false);
 }
 
 document.getElementById("new").addEventListener("click", generate);
