@@ -120,7 +120,7 @@
         align-items: center; 
         justify-content: center; 
         font-family: roboto;
-        height: 70vh;
+        height: calc(97vh - 140px);
         padding-bottom: 20px;
     }
 
@@ -205,7 +205,8 @@
         position: fixed;
         bottom: 0px;
         width: 100%;
-        height: fit-content;
+        /* height: fit-content; */
+        height: 70px;
     }
 
   
