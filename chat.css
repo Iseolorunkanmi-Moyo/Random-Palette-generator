@@ -7,6 +7,8 @@
         font-family: roboto;
         height: 94vh;
         overflow-y:hidden;
+        display: flex;
+        flex-direction: column;
     }
 
     nav{
@@ -114,14 +116,14 @@
 
     .body{
         margin-top:0px;
-        padding: 15px;
+        /* padding: 15px; */
         display: flex;
         flex-direction: column;
         align-items: center; 
         justify-content: center; 
         font-family: roboto;
         height: calc(97vh - 140px);
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 
     #area{
@@ -129,9 +131,8 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        flex-grow: 1;
         gap: 20px;
-        width: 90%;
+        width: 100%;
         max-width: 900px;
         overflow-y: scroll;
         scrollbar-width: thin;
